@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+   
+
+    /*seznam ovoce*/
+
+.table_background {
+    background-color:rgb(246, 176, 199);
+    padding: 15px;
+    border-radius:10px;
+}
+
+li{
+    background-color:palevioletred;
+    border-radius:10px;
+    padding: 15px;
+    margin: 15px;
+    list-style-position: inside;
+    color: aliceblue; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_background{
+    background-color: rgb(184, 75, 131);
+    background: linear-gradient(to left, rgb(246, 176, 199) 0%, palevioletred 100%);
+    border-radius:10px;
+    padding: 15px;
+    padding-left: 10px;
+    color: aliceblue; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bez-podtrzeni{
+ text-decoration: none;
+}
+
+/*nákupní seznam*/
+
+
+
+header{
+    text-align: center;
+    background-color: black;
+    border-style: solid;
+    border: 10px solid black;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    color:red
+}
+
+footer{
+    border: 1em;
+    border-style: solid;
+    border-bottom-left-radius: 1em; 
+    border-bottom-right-radius: 1em;
+      
+}
+.do{
+    color:red;
+   padding: 5px;
+   transition: 3ms ease-in-out;
+}
+
+.do:hover {
+    color:#8a9900;
+    text-decoration: line-through;
+    
+    
+    
+    transform: translateX(-1em)
+}
+
+
+.background_table{
+    padding: 60px;
+    background-image:url(cerveno_cerne_pozadi.jpg) ;
+    background-size:contain
+}    
